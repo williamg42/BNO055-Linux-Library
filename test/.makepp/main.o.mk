@@ -1,0 +1,5 @@
+SIGNATURE=0,0
+CWD=.
+COMMAND=|FAILED|g++ -Wall  -I../src/  -I../I2C/src/ main.cpp
+BUILD_SIGNATURE=FAILED
+END=

@@ -1,0 +1,93 @@
+3/usr/bin/makepp
+VERSION2.0.98.55.22.1arm-linux-gnueabihf-thread-multi-64int
+DEBUG0
+LOAD7df738Makefile318810/home/odroid/Desktop/BNO055-Linux-Driver/test318810
+TRY7df738
+USEdefault rule
+DEPEND7df738
+UP_TO_DATE7df738
+LOAD_INCL7e5110makepp_builtin_rules.mk175ce0/usr/share/makepp7df738
+LOAD_END7df738
+TRY177f58test318810
+USE/home/odroid/Desktop/BNO055-Linux-Driver/test/Makefile:10
+SCAN_INFO177f58
+LEX_RULE177f58info not cached
+PARSEc++  -I../src/  -I../I2C/src/ main.o ../src/BNO055.so ../I2C/src/I2C.so -o test318810/home/odroid/Desktop/BNO055-Linux-Driver/test/Makefile:10
+TRY587bf8c++64e368/usr/bin
+USEdefault rule
+DEPEND587bf8
+UP_TO_DATE587bf8
+DEPEND177f5862eac0BNO055.so62e868/home/odroid/Desktop/BNO055-Linux-Driver/src62ef58I2C.so62ed30/home/odroid/Desktop/BNO055-Linux-Driver/I2C/src587bf87eeca8main.o318810
+TRY62eac0
+LOAD639a18Makefile62e86862e868
+TRY639a18
+USEdefault rule
+DEPEND639a18
+UP_TO_DATE639a18
+LOAD_INCL7e5110639a18
+LOAD_END639a18
+USE/home/odroid/Desktop/BNO055-Linux-Driver/src/Makefile:13
+SCAN_INFO62eac0
+LEX_RULE62eac0info not cached
+PARSEc++  -I../src/  -I../I2C/src/ -shared BNO055.o -o BNO055.so62e868/home/odroid/Desktop/BNO055-Linux-Driver/src/Makefile:13
+DEPEND62eac063e6e8BNO055.o62e868587bf8
+TRY63e6e8
+USE/usr/share/makepp/makepp_builtin_rules.mk:90(/home/odroid/Desktop/BNO055-Linux-Driver/src)
+SCAN_INFO63e6e8
+LEX_RULE63e6e8info not cached
+PARSEc++ -O2  -c BNO055.cpp -o BNO055.o62e868/usr/share/makepp/makepp_builtin_rules.mk:90(/home/odroid/Desktop/BNO055-Linux-Driver/src)
+TRY5cd950BNO055.cpp62e868
+USEdefault rule
+DEPEND5cd950
+UP_TO_DATE5cd950
+INCL5cd9505cd9e0BNO055.h62e868
+TRY5cd9e0
+USEdefault rule
+DEPEND5cd9e0
+UP_TO_DATE5cd9e0
+INCL5cd95064d960errno.h5cfd10/usr/include
+TRY64d960
+USEdefault rule
+DEPEND64d960
+UP_TO_DATE64d960
+INCL5cd950672128fcntl.h5cfd10
+TRY672128
+USEdefault rule
+DEPEND672128
+UP_TO_DATE672128
+INCL5cd95066ac08inttypes.h5cfd10
+TRY66ac08
+USEdefault rule
+DEPEND66ac08
+UP_TO_DATE66ac08
+INCL5cd950584798i2c-dev.h666b08/usr/include/linux
+TRY584798
+USEdefault rule
+DEPEND584798
+UP_TO_DATE584798
+INCL5cd95058ace0math.h5cfd10
+TRY58ace0
+USEdefault rule
+DEPEND58ace0
+UP_TO_DATE58ace0
+INCL5cd95066e7e0stdio.h5cfd10
+TRY66e7e0
+USEdefault rule
+DEPEND66e7e0
+UP_TO_DATE66e7e0
+INCL5cd95058abc0syslog.h5cfd10
+TRY58abc0
+USEdefault rule
+DEPEND58abc0
+UP_TO_DATE58abc0
+INCL5cd95066cf98unistd.h5cfd10
+TRY66cf98
+USEdefault rule
+DEPEND66cf98
+UP_TO_DATE66cf98
+INCL5cd9e066ac08
+DEPEND63e6e85cd9505cd9e0587bf864d96067212858479866ac0858ace066e7e058abc066cf98
+BUILD_NONE63e6e8
+*** error: Failed to build target `/home/odroid/Desktop/BNO055-Linux-Driver/src/BNO055.o' [1]
+RULE_FAILED/usr/share/makepp/makepp_builtin_rules.mk:90(/home/odroid/Desktop/BNO055-Linux-Driver/src)
+N_FILES001

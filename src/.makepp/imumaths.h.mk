@@ -1,0 +1,6 @@
+SIGNATURE=1492711296,881
+LIBS=
+C_MD5_SUM=kwdHPxoaiemY7SINcfOZAA
+INCLUDES=
+SYSTEM_INCLUDES=matrix.h quaternion.h vector.h
+END=

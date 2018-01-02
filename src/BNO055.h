@@ -20,8 +20,8 @@
 #ifndef _BNO055_H
 #define _BNO055_H
 #include <inttypes.h>
-#include "../../I2C/src/I2C.h"
-#include "../utility/imumaths.h"
+#include "../I2C/src/I2C.h"
+#include "imumaths.h"
 
 // Register Definitions
 

@@ -1,0 +1,15 @@
+BUILD_SIGNATURE=1514911153,4476
+IMPLICIT_DEPS=
+SIG_METHOD_IMPLICIT=1
+CWD=.
+SIGNATURE=1514911153,4476
+ARCH=arm-linux-gnueabihf-thread-multi-64int
+IMPLICIT_TARGETS=
+META_DEPS=../I2C/src/I2C.cpp/usr/bin/g++syserrno.hfcntl.hinttypes.hlinux/i2c-dev.hstdio.hsys/ioctl.hsyslog.hunistd.huser../I2C/src/I2C.h
+SORTED_DEPS=../I2C/src/I2C.cpp../I2C/src/I2C.h/usr/include/errno.h/usr/include/fcntl.h/usr/bin/g++/usr/include/linux/i2c-dev.h/usr/include/inttypes.h/usr/include/stdio.h/usr/include/syslog.h/usr/include/unistd.h
+DEP_SIGS=PQLmYYA1HbytdBecq4Xm4AwHDQA9dBfRZ+90ucBQzB3w1497646506,23671497646515,94371505362782,5899201513008361,25481497646506,118921497646508,313651497646517,241497646514,42100
+SIG_METHOD_NAME=C
+INCLUDE_PATHS=sys../src/../I2C/src//usr/local/include/usr/includeuser../src/../I2C/src//usr/local/include/usr/include
+INCLUDE_SFXS=
+COMMAND=g++  -c -Wall  -I../src/  -I../I2C/src/ ../I2C/src/I2C.cpp
+END=
