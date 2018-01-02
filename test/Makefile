@@ -4,7 +4,7 @@ dep = $(obj:.o=.d)  # one dependency file for each source
 
 LDFLAGS =
 
-test: $(obj)
+test.exe: $(obj)
 	$(CXX) -o $@ $^ $(LDFLAGS)
 
 -include $(dep)   # include all dep files in the makefile
